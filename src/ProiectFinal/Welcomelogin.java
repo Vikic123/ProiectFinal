@@ -31,7 +31,7 @@ public class Welcomelogin extends JFrame {
         mainLabel.setSize(900,600);
         mainLabel.setLayout(new BorderLayout());
 
-        img = null;
+        img = null;//njh
         try {
             img = ImageIO.read(new File("C:\\Users\\Vikic\\Desktop\\Imagini\\insula.jpg"));
         } catch (IOException e) {
