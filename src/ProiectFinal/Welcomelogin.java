@@ -124,7 +124,6 @@ public class Welcomelogin extends JFrame {
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == start) {
                 new Joc();
-                //joc.getQuestion();
                 dispose();
             } else if (e.getSource() == exit){
                 System.exit(0);
